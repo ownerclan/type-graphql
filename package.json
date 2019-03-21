@@ -14,7 +14,8 @@
     "lint": "tslint --project tsconfig.json",
     "verify": "npm run check && npm run lint",
     "package": "gulp package",
-    "docs": "npm run --prefix website start"
+    "docs": "npm run --prefix website start",
+    "prepare": "gulp pacakge"
   },
   "peerDependencies": {
     "@types/graphql": "^14.0.7",
