@@ -15,8 +15,7 @@
     "verify": "npm run check && npm run lint",
     "package": "gulp package",
     "docs": "npm run --prefix website start",
-    "prepare": "gulp package",
-    "build": "gulp package"
+    "install": "gulp package"
   },
   "peerDependencies": {
     "@types/graphql": "^14.0.7",
