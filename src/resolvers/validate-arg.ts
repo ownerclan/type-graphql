@@ -22,7 +22,7 @@ export async function validateArg<T extends Object>(
   }
 
   if (customValidateOrRejct) {
-    customValidateOrRejct(arg, validatorOptions);
+    await customValidateOrRejct(arg, validatorOptions);
     return arg;
   }
 
